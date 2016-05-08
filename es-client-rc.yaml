@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ReplicationController
 metadata:
-  name: es-client-u
+  name: es-client
   labels:
     component: elasticsearch
     role: client
