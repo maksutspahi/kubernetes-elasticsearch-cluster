@@ -18,6 +18,10 @@ spec:
     spec:
       serviceAccount: elasticsearch
       containers:
+        resources:
+          requests:
+            memory: "2048Mi"
+            cpu: "2000m"
       - name: es-client
         securityContext:
           privileged: true
