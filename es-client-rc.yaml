@@ -21,8 +21,8 @@ spec:
       - name: es-client
         resources:
           requests:
-            memory: "2048Mi"
-            cpu: "1000m"
+            memory: "4096Mi"
+            cpu: "500m"
         securityContext:
           privileged: true
           capabilities:
